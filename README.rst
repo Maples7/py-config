@@ -24,7 +24,8 @@ Installation
 
 Best Practice
 -------------
-Firstly, you should have a `config` folder under the codebase of your application, like this:
+
+Firstly, you should have a ``config`` folder under the codebase of your application, like this:
 
 .. code:: shell
 
@@ -38,9 +39,9 @@ Firstly, you should have a `config` folder under the codebase of your applicatio
     .
 
 
-Secondly, set environment variable `PY_ENV` to one of the names of JOSN files in the `config` folder, and it defaults to be `development`.
+Secondly, set environment variable ``PY_ENV`` to one of the names of JOSN files in the ``config`` folder, and it defaults to be ``development``.
 
-In your `__init__.py` under `config` folder, these codes can be used:
+In your ``__init__.py`` under ``config`` folder, these codes can be used:
 
 .. code:: python
 
@@ -51,9 +52,9 @@ In your `__init__.py` under `config` folder, these codes can be used:
     set_config_dir(config_dir)
     config = get_config()
 
-Then, you can use `from config import config` to import your app config in any other places in you codebase.
+Then, you can use ``from config import config`` to import your app config in any other places in you codebase.
 
-The final `config` would **merge** `default.json` and `<PY_ENV>.json`. See `dict-recursive-update <https://github.com/Maples7/dict-recursive-update>`_ for the **recursive** update rules.
+The final ``config`` would **merge** ``default.json`` and ``<PY_ENV>.json``. See `dict-recursive-update <https://github.com/Maples7/dict-recursive-update>`_ for the **recursive** update rules.
 
 
 APIs

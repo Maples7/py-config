@@ -1,0 +1,7 @@
+{
+  "a": "I am in default.json",
+  "b": {
+    "c": "Here I am!",
+    "d": "Do NOT change this one."
+  }
+}

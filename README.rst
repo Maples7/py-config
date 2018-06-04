@@ -2,8 +2,8 @@
 py-config
 =========
 
-.. image:: https://travis-ci.org/Maples7/py-app-config.svg?branch=master
-    :target: https://travis-ci.org/Maples7/py-app-config
+.. image:: https://travis-ci.org/Maples7/py-config.svg?branch=master
+    :target: https://travis-ci.org/Maples7/py-config
 
 .. image:: https://img.shields.io/pypi/v/py-app-config.svg
     :target: https://pypi.python.org/pypi/py-app-config

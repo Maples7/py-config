@@ -37,7 +37,7 @@ class Test(unittest.TestCase):
     def test_e2e(self):
         set_config_dir()
         config = get_config()
-        self.assertDictEqual(
+        self.assertEqual(
             config, {
                 'a': 'I am in development.json',
                 'b': {
